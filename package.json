@@ -1,0 +1,19 @@
+{
+  "name": "macx",
+  "version": "0.1.0",
+  "description": "The Imagineer Protocol - Attribution, royalties, and value capture for rapid prototypers",
+  "type": "module",
+  "bin": {
+    "macx": "./bin/macx.js"
+  },
+  "scripts": {
+    "test": "node bin/macx.js --help"
+  },
+  "keywords": ["attribution", "ip-nft", "imagineer", "agalmic", "creator-economy"],
+  "author": "Clawdbot",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "ethers": "^6.11.0"
+  }
+}
